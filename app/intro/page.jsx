@@ -17,9 +17,9 @@ const Home = () => {
               <div className="m-5 flex divide-x-2 divide-gray-400">
                 <ul className="items-center flex-col px-1 mx-1">
                   <li>이름 : 김원태</li>
-                  <li>생년월일 : 2001.08.29</li>
+                  <li>생년월일 : 2001.00.00</li>
                   <li>거주지 : 인천광역시 부평구</li>
-                  <li>연락처 : 010-8707-6821</li>
+                  <li>연락처 : 010-0000-0000</li>
                   <li>이메일 : rladnjsxo524@naver.com</li>
                 </ul>
               </div>
