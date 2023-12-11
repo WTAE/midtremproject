@@ -4,21 +4,21 @@ const Home = () => {
   return (
     <>
       <Header head="나를 소개합니다" />
-      <div className="itlems-center bg-gray-100 w-screen grid place-items-center h-auto">
-        <section className="bg-gray-100 h-auto w-4/6 p-10">
-          <header className="bg-gray-100 itlems-center mb-12 mt-12 font-black text-5xl">
+      <div className="itlems-center bg-gray-50 w-screen grid place-items-center h-auto">
+        <section className="bg-gray-50 h-auto w-4/6 p-10">
+          <header className="bg-gray-50 itlems-center mb-12 mt-12 font-black text-5xl">
             자기 소개
           </header>
 
-          <article className="bg-gray-100">
+          <article className="bg-gray-50">
             <section>
-              <h1 className="font-black text-3xl">기본 정보</h1>
+              <h1 className="font-black text-3xl">개인 정보</h1>
               <hr class="h-px my-5 border-0 dark:bg-black"></hr>
               <div className="m-5 flex divide-x-2 divide-gray-400">
                 <ul className="items-center flex-col px-1 mx-1">
                   <li>이름 : 김원태</li>
                   <li>생년월일 : 2001.08.29</li>
-                  <li>거주지 : 인천광역시 부평구</li>
+                  <li>거주지 : 인천광역시 부평구 </li>
                   <li>연락처 : 010-8707-6821</li>
                   <li>이메일 : rladnjsxo524@naver.com</li>
                 </ul>
@@ -48,7 +48,7 @@ const Home = () => {
                       </td>
                     </tr>
                     <tr className="divide-x-2 divide-gray-400">
-                      <td className="pr-2">2023.06 ~</td>
+                      <td className="pr-2">2023.06 ~ 2023.09</td>
                       <td className="pl-2">
                           Hsapce Incognito '홈캠 취약점 분석' 진행
                       </td>
@@ -64,7 +64,9 @@ const Home = () => {
                 <h1 className="font-black text-2xl">웹 해킹</h1>
                 <hr class="h-px my-5 border-0 dark:bg-black"></hr>
                 <div className="m-5">
-                  웹 해킹 기술에 관심 있으며, 다양한 웹 해킹 방법에 대해 공부 중에 있습니다.
+                  웹 해킹 기술에 관심 있으며, 다양한 웹 해킹 공격 기법들을 공부하고 있다.
+                  
+                  공격 이외에 방어 기법에 대해서도 공부할 예정이다
                 </div>
               </div>
             </section>
